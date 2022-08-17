@@ -1014,6 +1014,7 @@ $document.ready(function () {
 	 * RD Navbar
 	 * @description Enables RD Navbar plugin
 	 */
+	
 	if (plugins.rdNavbar.length) {
 		var aliaces, i, j, len, value, values, responsiveNavbar;
 
