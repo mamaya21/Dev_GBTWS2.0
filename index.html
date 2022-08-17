@@ -77,7 +77,7 @@
       <header class="section page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap rd-navbar-corporate">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="100px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
+          <nav id="navegador" class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="100px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
             <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
 
             <div class="rd-navbar-inner">
@@ -111,10 +111,14 @@
         </div>
       </header>
 
-      <section class="section showcase" id="sec1">
-        <video src="video/Gameplay.mp4" muted loop autoplay></video>
+      <!-- <section style="background: red;">
+        <div>hola con todos</div>
+      </section> -->
 
-        <div class="overlay"></div>
+      <section class="section showcase" id="sec1">
+        <video src="video/background.mp4" muted loop autoplay></video>
+
+        <!-- <div class="overlay"></div> -->
 
         <div class="content-principal">
           <div class="container container-bigger swiper-main-section" id="ct2">
@@ -141,7 +145,7 @@
 
                 </div> -->
                 
-                <div id="countdown1" class="section cuenta"></div>
+                <div id="countdown1" class="cuenta"></div>
                 <div id="countdown2" class="cuenta"></div>
                
                 <a id="btn1" class="button button-default-outline button-nina button-lg btn_download" href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
@@ -646,6 +650,13 @@
 	  <script src="js/countdown.js"></script>
 
     <script>
+
+      debugger;
+      //rd-navbar--is-stuck
+
+      var navegador = document.getElementById("navegador");
+
+
       VanillaTilt.init(document.querySelectorAll(".sci li a"),{
         max: 25,
         speed: 400,
