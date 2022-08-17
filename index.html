@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v6.css">
+    <link rel="stylesheet" href="css/style_v6_v2.css">
     <!-- <link rel="stylesheet" href="css/style_slick.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
@@ -86,7 +86,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/logo_ngb.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/logo_ngb.png" alt="" width="208" height="46"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/logo_ngb.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/logo_ngb.png" alt="" width="208" height="46" loading="lazy"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <div class="rd-navbar-nav-wrap">
@@ -111,12 +111,12 @@
         </div>
       </header>
 
-      <!-- <section style="background: red;">
-        <div>hola con todos</div>
-      </section> -->
+      <section id="sec_countdown" class="section">
+        <div id="countdown1" class="cuenta"></div>
+      </section>
 
       <section class="section showcase" id="sec1">
-        <video src="video/background.mp4" muted loop autoplay></video>
+        <video src="video/background.mp4" muted loop autoplay loading="lazy" playsinline></video>
 
         <!-- <div class="overlay"></div> -->
 
@@ -124,28 +124,6 @@
           <div class="container container-bigger swiper-main-section" id="ct2">
             <div class="row row-fix justify-content-sm-center">
               <div id="div_btns" class="col-md-12">
-<!-- 
-                <div class="form-request form-request-modern bg-gray-lighter novi-background">
-                  <h4>PRE - REGISTER NOW</h4>
-                  <form class="rd-mailform form-fix">
-                    <div class="row row-20 row-fix">
-                      <div class="col-sm-12">
-                        <label class="form-label-outside">Email</label>
-                        <div class="form-wrap form-wrap-inline">
-                          <input type="email" placeholder="youremail@example.com">
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="form-wrap form-button">
-                      <button class="button button-block button-secondary" type="submit">search flight</button>
-                    </div>
-                  </form>
-
-
-                </div> -->
-                
-                <div id="countdown1" class="cuenta"></div>
                 <div id="countdown2" class="cuenta"></div>
                
                 <a id="btn1" class="button button-default-outline button-nina button-lg btn_download" href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
@@ -177,7 +155,7 @@
                           <hr class="hr_tt6">
                           <!-- <img src="images/body/img_rank.PNG" alt=""> -->
                           <div class="rd_mobile_video">
-                            <video src="video/juego.mp4" muted loop autoplay></video>
+                            <video src="video/juego.mp4" muted loop autoplay loading="lazy" playsinline></video>
                           </div>
                         </div>
                         <br>
@@ -250,10 +228,13 @@
                       <div class="col-md-12 dv_op_news">
                         <h4 class="h4_mobile">COMMUNITY</h4>
                         <hr class="hr_tt5">
-                        <div class="owl-carousel owl-layout-1" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-autoplay="true" style="
-                        margin-top: 20px;">
-                          <article class="quote-boxed">
 
+                 
+
+                        <div class="owl-carousel owl-layout-1" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-swipe="true" data-center="true" data-autoplay="false" style="
+                        margin-top: 20px;">
+                        
+                          <article class="quote-boxed">
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
                                 <p class="p_white">Gunbound tournament event at the end of the month.</p>
@@ -263,11 +244,10 @@
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
                             <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad1.jpg" alt="" width="210" height="210"/>
-                            </div>
-                            
+                            </div>                            
                           </article>
-                          <article class="quote-boxed">
 
+                          <article class="quote-boxed">
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
                                 <p class="p_white">Gunbound fan page awards every day.</p>
@@ -277,11 +257,10 @@
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
                             <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad2.jpg" alt="" width="210" height="210"/>
-                            </div>
-                            
+                            </div>                            
                           </article>
-                          <article class="quote-boxed">
 
+                          <article class="quote-boxed">
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
                                 <p class="p_white">Gunbound social media follower awards weekend.</p>
@@ -291,9 +270,9 @@
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
                             <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad3.jpg" alt="" width="210" height="210"/>
-                            </div>
-                            
+                            </div>                            
                           </article>
+
                         </div>
                       </div>
                     </div>
@@ -348,7 +327,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_FB" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/fb.jpg" alt="" width="80"
-                                    height="80" />
+                                    height="80" loading="lazy"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound Latino</a></h5>
@@ -366,7 +345,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_YT" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/yt.jpg" alt="" width="80"
-                                    height="80" />
+                                    height="80" loading="lazy"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
@@ -384,7 +363,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_IG" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news2.png" alt="" width="80"
-                                    height="80" />
+                                    height="80" loading="lazy"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound LA</a></h5>
@@ -402,7 +381,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_DC" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news1.png" alt="" width="80"
-                                    height="80" />
+                                    height="80" loading="lazy"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound Latino</a></h5>
@@ -507,7 +486,7 @@
           <div class="slick-slider slick-style-1" data-arrows="true" data-autoplay="false" data-loop="true" data-dots="true" data-swipe="true" data-xs-swipe="true" data-sm-swipe="false" data-items="1" data-sm-items="3" data-md-items="3" data-lg-items="3" data-center-mode="true" data-lightgallery="group-slick">
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/new_mobile.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/new_mobile.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Mobiles</p>
                       <p class="thumb-ann__text negrita">Try the new mobiles and win your battles.</p>
@@ -517,7 +496,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/batalla.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/batalla.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Battle</p>
                       <p class="thumb-ann__text negrita">Battle with your friends or alone and become a legendary player.</p>
@@ -527,7 +506,7 @@
             </div>            
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/mision.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/mision.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Mission</p>
                       <p class="thumb-ann__text negrita">Complete missions and earns rewards.</p>
@@ -537,7 +516,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/logros.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/logros.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Achievement</p>
                       <p class="thumb-ann__text negrita">Earn amazing rewards for your achievements.</p>
@@ -547,7 +526,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/noticias.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/noticias.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">News</p>
                       <p class="thumb-ann__text negrita">Follow us on our channels and find out about all our news that we have for you..</p>
@@ -557,7 +536,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/preset.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/preset.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Preset</p>
                       <p class="thumb-ann__text negrita">Choose your preset to play and show your skills.</p>
@@ -567,7 +546,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/tienda.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/tienda.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Shop</p>
                       <p class="thumb-ann__text negrita">Check in our store and acquire packages, resources and skins.</p>
@@ -577,7 +556,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/turned.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/turned.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Turned</p>
                       <p class="thumb-ann__text negrita">Wait your turn, show your best attack and win your games.</p>
@@ -587,7 +566,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/upgrade.JPEG" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/upgrade.JPEG" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Upgrade</p>
                       <p class="thumb-ann__text negrita">Upgrade your look and unlock new powers.</p>
@@ -597,7 +576,7 @@
             </div>
             <div class="item">
               <div class="slick-slide-inner">
-                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/victory.jpg" alt="" width="961" height="664"/>
+                <div class="slick-slide-caption"><a class="thumb-ann thumb-mixed_large"><img class="thumb-ann__image" src="images/play/victory.jpg" alt="" width="961" height="664" />
                     <div class="thumb-ann__caption"> 
                       <p class="thumb-ann__title heading-3 negrita">Victory</p>
                       <p class="thumb-ann__text negrita">Win your games and become the best GunboundT player.</p>
@@ -651,8 +630,8 @@
 
     <script>
 
-      debugger;
-      //rd-navbar--is-stuck 
+      console.log(window.screen.width);
+      // alert(window.screen.width+' | '+window.screen.height);
 
       var navegador = document.getElementById("navegador");
 
