@@ -20641,9 +20641,10 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	width: 290px;
+	width: 265px;
 	transform-origin: 0;
 	border-radius: 15px;	
+	padding-top: 15px;
 }
 
 @media (min-width: 576px) {
