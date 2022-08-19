@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v6_v2.css">
+    <link rel="stylesheet" href="css/style_v6_v4.css">
     <!-- <link rel="stylesheet" href="css/style_slick.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
@@ -86,7 +86,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/logo_ngb.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/logo_ngb.png" alt="" width="208" height="46" loading="lazy"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/logo_ngb.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/logo_ngb.png" alt="" width="208" height="46"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <div class="rd-navbar-nav-wrap">
@@ -116,7 +116,7 @@
       </section>
 
       <section class="section showcase" id="sec1">
-        <video src="video/background.mp4" muted loop autoplay loading="lazy" playsinline></video>
+        <video src="video/background.mp4" muted loop autoplay preload="auto" playsinline></video>
 
         <!-- <div class="overlay"></div> -->
 
@@ -125,14 +125,117 @@
             <div class="row row-fix justify-content-sm-center">
               <div id="div_btns" class="col-md-12">
                 <div id="countdown2" class="cuenta"></div>
-               
-                <a id="btn1" class="button button-default-outline button-nina button-lg btn_download" href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
 
-                <a id="btn2" class="button button-default-outline button-nina button-lg btn_download" href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
+                <a id="btn_auxiliar" class="button button-default-outline button-nina button-lg btn_download" href="#sec_pr1">&nbsp;</a>
+               
+                <a id="btn1" class="button button-default-outline button-nina button-lg btn_download disable_pr" href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
+
+                <a id="btn2" class="button button-default-outline button-nina button-lg btn_download disable_pr" href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
+
               </div>
             </div>
           </div>
           
+        </div>
+      </section>
+
+      <section class="section bg-cover" id="sec_pr1">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-xl-5 d-none d-xl-block">
+              <h3 class="h3_sec_pr">Pre - Register Info</h3>
+              <div class="pd_img_pr1">
+                <img id="pr_nubes" src="images/body/explosion.png" alt="" width="472" height="753"/>
+                <img id="pr_img" src="images/body/armor.png" alt="" width="472" height="753"/>
+              </div>
+            </div>
+
+            <div class="col-md-10 col-lg-9 col-xl-7">
+              <div class="section-50 section-md-75 section-xl-100" id="pr_information">
+                
+
+                <!-- <h4 class="h4_sec_pr">amount of pre-register: </h4> -->
+                <!-- <div class="pr_colorfondo" id="pr_colorfondo"></div> -->
+                <div class="pr_number" id="pr_number"></div>
+                <h4 class="h4_sec_pr_center" data-wow-delay=".3s">pre-registrations looking for the goal</h4> 
+
+                <!-- Owl Carousel-->
+              <div id="pr_owl" class="owl-carousel owl-carousel-center owl2" data-items="1" data-md-items="3" data-xl-items="3" data-dots="false" data-swipe="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="0" data-mouse-drag="false" data-center="true" data-autoplay="false">
+
+                <!-- <div class="team-minimal">
+                  <figure><img class="img_mbl2" src="images/body/mobiles_person/resize/01_armor_.gif" alt="" width="370" height="370"></figure>            
+                </div>
+                <div class="team-minimal">
+                  <figure><img class="img_mbl2" src="images/body/mobiles_person/resize/01_armor_.gif" alt="" width="370" height="370"></figure>
+                </div>
+                <div class="team-minimal">
+                  <figure><img class="img_mbl2" src="images/body/mobiles_person/resize/01_armor_.gif" alt="" width="370" height="370"></figure>
+                </div> -->
+
+                <div id="pr_dv1" class="team-minimal">
+                  <div class="carta back-face">
+                    <img id="pr_card1" src="images/body/premios/meta1.png" alt="">
+                    <div id="info1">
+                      <div class="pr_txttitulo">Goal 1</div>
+                      <p class="pr_txt1">1 - 5 Thousand</p>
+                      <p class="pr_txt1">USD 500</p>
+                      <p class="pr_txt1">5 prizes</p>                      
+                    </div>
+                    <div id="pr_blocks1" class="blocks">
+                      <img class="pr_unlock" src="images/body/premios/unlock-icon.png" alt="">
+                      Unlock
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div id="pr_dv2" class="team-minimal">
+                  <div class="carta back-face">
+                    <img id="pr_card2" src="images/body/premios/meta2.png" alt="">
+                    <div id="info2">
+                      <div class="pr_txttitulo">Goal 2</div>
+                      <p class="pr_txt1">2 - 5 Thousand</p>
+                      <p class="pr_txt1">USD 500</p>
+                      <p class="pr_txt1">10 prizes</p>                      
+                    </div>
+                    <div id="pr_blocks2" class="blocks">
+                      <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
+                      Lock
+                    </div>
+                  </div>
+                </div>
+
+                <div id="pr_dv3" class="team-minimal">
+                  <div class="carta back-face">
+                    <img id="pr_card3" src="images/body/premios/meta3.png" alt="">
+                    <div id="info3">
+                      <div class="pr_txttitulo">Goal 3</div>
+                      <p class="pr_txt1">3 - 5 Thousand</p>
+                      <p class="pr_txt1">USD 500</p>
+                      <p class="pr_txt1">15 prizes</p>                      
+                    </div>
+                    <div id="pr_blocks3" class="blocks">
+                      <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
+                      Lock
+                    </div>
+                  </div>
+                </div>
+                              
+              </div>
+
+                <div id="div_btns_pr" class="col-md-12">
+
+                  <a id="btn5" class="button button-default-outline button-nina button-lg btn_download"
+                    href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
+
+                  <a id="btn6" class="button button-default-outline button-nina button-lg btn_download"
+                    href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </section>
 
@@ -155,7 +258,7 @@
                           <hr class="hr_tt6">
                           <!-- <img src="images/body/img_rank.PNG" alt=""> -->
                           <div class="rd_mobile_video">
-                            <video src="video/juego.mp4" muted loop autoplay loading="lazy" playsinline></video>
+                            <video src="video/juego.mp4" muted loop autoplay preload="auto" playsinline></video>
                           </div>
                         </div>
                         <br>
@@ -327,7 +430,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_FB" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/fb.jpg" alt="" width="80"
-                                    height="80" loading="lazy"/>
+                                    height="80"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound Latino</a></h5>
@@ -345,7 +448,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_YT" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/yt.jpg" alt="" width="80"
-                                    height="80" loading="lazy"/>
+                                    height="80"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
@@ -363,7 +466,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_IG" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news2.png" alt="" width="80"
-                                    height="80" loading="lazy"/>
+                                    height="80"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound LA</a></h5>
@@ -381,7 +484,7 @@
                             <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_DC" style="display: none;">
                               <article class="quote-boxed">
                                 <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news1.png" alt="" width="80"
-                                    height="80" loading="lazy"/>
+                                    height="80"/>
                                 </div>
                                 <div class="quote-boxed-main p_white">
                                   <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound Latino</a></h5>
@@ -633,9 +736,26 @@
       console.log(window.screen.width);
       // alert(window.screen.width+' | '+window.screen.height);
 
+      //INICIO
+      //Efecto para contador de pre-registros
+      // const color_fondo = document.getElementById('pr_colorfondo');
+      const numero = document.getElementById('pr_number');
+      let cantidad = 0;
+
+      let tiempo = setInterval(() => {
+        cantidad+=40;
+        // color_fondo.style.height=`${cantidad}%`;
+        numero.textContent=cantidad;
+
+        if(cantidad===1080){
+          clearInterval(tiempo);
+        }
+      }, 80);
+
+      //END
+
       var navegador = document.getElementById("navegador");
-
-
+      
       VanillaTilt.init(document.querySelectorAll(".sci li a"),{
         max: 25,
         speed: 400,

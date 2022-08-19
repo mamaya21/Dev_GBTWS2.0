@@ -18656,6 +18656,24 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	}
 }
 
+#sec_pr1
+{
+	background: url('../images/body/fondos/8_2.png') center center fixed;
+	background-size: cover;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+/* @media (min-width: 992px) {
+	#sec_pr1
+	{
+		background: url('../images/body/fondos/10.png') center center fixed;
+		background-size: cover;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+} */
+
 
 @media (min-width: 992px) {
 	#sec2_div {
