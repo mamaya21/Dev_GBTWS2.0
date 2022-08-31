@@ -7909,10 +7909,6 @@ html.lt-ie-10 .row-narrow > * + [class*='col'],
 	max-width: 1800px;
 }
 
-.container-wide2 {
-	max-width: 1500px;
-}
-
 .row-custom-bordered [class*='col'] {
 	border-style: solid;
 	border-color: #dfe1ea;
@@ -10200,6 +10196,8 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	-webkit-transform: translate3d(0px, 0px, 0px);
 	text-align: center;
 	align-items: center;
+	height: 510px;
+	padding-top: 100px;
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev,
@@ -20461,7 +20459,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #sec_pr1
 {
-	background: url('../images/body/bg_mobiles3.png') center center fixed;
+	background: url('../images/body/bg_mobiles5.png') center center fixed;
 	background-size: cover;
 	padding-top: 25px;
 }
@@ -20498,7 +20496,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	font-family: Blockhead;
 	font-weight: bold;	
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -20517,30 +20515,60 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		font-size: 20px;
 		text-align: center;
 	}
-
 }
-
 
 .h3_sec_pr
 {
 	padding-bottom: 10px;
-	padding-top: 10px;
-	
-	/* background: -webkit-linear-gradient(#fda049, rgb(168, 2, 2)); */
+	padding-top: 10px;	
 	background: -webkit-linear-gradient(#faa200, #ff3300);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: Blockhead;
-	font-weight: bold;
-	
+	font-weight: bold;	
 	font-weight: 700;
-	/* font-size: 40px; */
-	font-size: 35px;
-
+	font-size: 40px;
 	text-align: center;
+}
+
+.container-wide2 {
+	max-width: 1500px;
+	padding-top: 40px;
+}
+
+@media (max-width: 1600px){	
+
+	.container-wide2 {
+		max-width: 1500px;
+		padding-top: 45px;
+	}
+
+	.h3_sec_pr
+	{
+		padding-bottom: 70px;
+		padding-top: 10px;	
+		background: -webkit-linear-gradient(#faa200, #ff3300);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-family: Blockhead;
+		font-weight: bold;	
+		font-weight: 700;
+		font-size: 35px;
+		text-align: center;
+	}
+
+	#pr_img2
+	{
+		position: absolute;
+		max-width: none;
+		filter: drop-shadow(-15px 60px 25px #ffe300);
+		/* top: -100px; */
+		top: 130px;
+		left: 255px;
+	}
 
 }
+
 
 .h4_sec_pr
 {
@@ -20562,19 +20590,13 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 {
 	padding-bottom: 10px;
 	padding-top: 10px;
-	/* background: -webkit-linear-gradient(#e90000, rgb(168, 2, 2)); */
-	background: #ffa900;
+	background: #DC0102;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
-	font-family: Blockhead;
-	/* font-weight: bold; */
-	
+	font-family: Blockhead;	
 	font-weight: 700;
 	text-align: center;
-
-	/* font-size: 25px; */
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #pr_information
@@ -20592,6 +20614,26 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	animation: movimiento 3.5s linear infinite;
 }
 
+.pd_img_pr2
+{
+	padding-top: 15px;
+	align-items: center;
+	text-align: center;
+	/* animation: movimiento 3.5s linear infinite; */
+}
+
+
+/* .pd_img_pr1::before
+{
+	content: "";
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.9));
+} */
+
 #pr_nubes
 {
 	/* width: 80%; */
@@ -20603,6 +20645,17 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	/* width: 100%; */
 	width: 85%;
 	max-width: none;
+	filter: drop-shadow(-15px 60px 25px #ffe300);
+}
+
+#pr_img2
+{
+	position: absolute;
+	max-width: none;
+	filter: drop-shadow(-15px 60px 25px #ffe300);
+	/* top: -100px; */
+	top: 130px;
+	left: 215px;
 }
 
 #div_btns_pr
@@ -20704,6 +20757,24 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv3
 {
+	background: url('../images/body/fondos/6_2.png') center center fixed;
+	background-size: cover;
+	border-style: solid;
+	border-color: #8428ad;
+	padding-bottom: 45px;
+}
+
+#pr_dv4
+{
+	background: url('../images/body/fondos/2.png') center center fixed;
+	background-size: cover;
+	border-style: solid;
+	border-color: #0aff00;
+	padding-bottom: 45px;
+}
+
+#pr_dv5
+{
 	background: url('../images/body/fondos/8_3.png') center center fixed;
 	background-size: cover;
 	border-style: solid;
@@ -20757,8 +20828,10 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	width: 100%;
 	font-size: 6.1em;
 	font-family: Blockhead;
-	color: #ffa900;
-	mix-blend-mode: screen;
+	/* color: #ffa900; */
+	/* color: #FFF900; */
+	color: #DC0102;
+	/* mix-blend-mode: screen; */
 	display: flex;
 	justify-content: left;
 	align-items: center;
@@ -20782,8 +20855,9 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		width: 100%;
 		font-size: 6.1em;
 		font-family: Blockhead;
-		color: #ffa900;
-		mix-blend-mode: screen;
+		/* color: #ffa900; */
+		color: #DC0102;
+		/* mix-blend-mode: screen; */
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -20827,6 +20901,16 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_blocks3
 {
+	background-color: #8428ad;
+}
+
+#pr_blocks4
+{
+	background-color: #0aff00;
+}
+
+#pr_blocks5
+{
 	background-color: #ffa900;
 }
 
@@ -20844,6 +20928,18 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_card3
 {
+	background: #8428ad;
+	margin-bottom: 20px;
+}
+
+#pr_card4
+{
+	background: #0aff00;
+	margin-bottom: 20px;
+}
+
+#pr_card5
+{
 	background: #ffa900;
 	margin-bottom: 20px;
 }
@@ -20860,41 +20956,38 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	background: #ff0000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: Blockhead;
-	/* font-weight: bold;
-	font-size: 25px; */
 	font-weight: 700;
-
 	font-size: 20px;
+}
+
+.pr_txttitulo_
+{
+	background: #ff0000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Blockhead;
+	font-weight: 700;
+	font-size: 20px;
+	padding-bottom: 20px;
 }
 
 .pr_txt1
 {
-
-	/* background: -webkit-linear-gradient(#fda049, rgb(168, 2, 2)); */
 	background: -webkit-linear-gradient(#faa200, #ff3300);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: Blockhead;
-	/* font-weight: bold;
-	font-size: 20px; */
 	font-weight: 700;
 	font-size: 17px;
 }
 
 .pr_txt2
 {
-
-	/* background: -webkit-linear-gradient(#fda049, rgb(168, 2, 2)); */
 	background: -webkit-linear-gradient(#005381, #005381);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: Blockhead;
-	/* font-weight: bold;
-	font-size: 20px; */
 	font-weight: 700;
 	font-size: 17px;
 }
@@ -20902,16 +20995,22 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 .pr_txt3
 {
 
-	/* background: -webkit-linear-gradient(#fda049, rgb(168, 2, 2)); */
 	background: -webkit-linear-gradient(#faa200, #ff0000);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: Blockhead;
-	/* font-weight: bold;
-	font-size: 20px; */
 	font-weight: 700;
 	font-size: 17px;
+}
+
+.pr_txt5
+{
+	background: -webkit-linear-gradient(#faa200, #ff3300);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Blockhead;
+	font-weight: 700;
+	font-size: 14px;
 }
 
 #info1
@@ -20920,7 +21019,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	width: 100%;
 	border-top: 2px solid #0070ac;
 	padding-top: 15px;
-	height: 220px;
+	height: 230px;
 }
 
 #info2
@@ -20929,16 +21028,34 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	width: 100%;
 	border-top: 2px solid #ff2c2c;
 	padding-top: 15px;
-	height: 220px;
+	height: 230px;
 }
 
 #info3
+{
+	background: linear-gradient(#eeebeb, #da9df4);
+	width: 100%;
+	border-top: 2px solid #8428ad;
+	padding-top: 15px;
+	height: 230px;
+}
+
+#info4
+{
+	background: linear-gradient(#eeebeb, #8efc8a);
+	width: 100%;
+	border-top: 2px solid #0aff00;
+	padding-top: 15px;
+	height: 230px;
+}
+
+#info5
 {
 	background: linear-gradient(#eeebeb, #f3c56e);
 	width: 100%;
 	border-top: 2px solid #ffa900;
 	padding-top: 15px;
-	height: 220px;
+	height: 230px;
 }
 
 .disable_pr
