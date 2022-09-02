@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v6_v8.css">
+    <link rel="stylesheet" href="css/style_v6_13.css">
     <!-- <link rel="stylesheet" href="css/style_slick.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
@@ -19,6 +19,9 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0&appId=473674434290374&autoLogAppEvents=1" nonce="2sIbtRR4"></script>
+
     <!-- Page preloader-->
     <div class="page-loader"> 
       <div class="page-loader-body"> 
@@ -164,15 +167,43 @@
             <div class="col-md-12 col-lg-12 col-xl-7">
               <div class="pr_number" id="pr_number"></div>
                 <h4 id="pr_textonumber" class="h4_sec_pr_center" data-wow-delay=".3s">pre-registrations</h4> 
+
+                <div id="div_btns_pr" class="col-md-12">
+      
+                  <a id="btn5" class="button button-default-outline button-nina button-lg btn_download"
+                    href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
+      
+                  <a id="btn6" class="button button-default-outline button-nina button-lg btn_download"
+                    href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
+                </div>
+            </div>
+
+            <div class="col-xl-5 d-none d-xl-block">
             </div>
       
-            <div class="col-md-12 col-lg-12 col-xl-12">
+            <div class="col-md-12 col-lg-12 col-xl-7">
               <div class="section-50 section-md-75 section-xl-100" id="pr_information">
       
-                <div id="pr_owl" class="owl-carousel owl-carousel-center owl2" data-items="1" data-md-items="5"
-                  data-xl-items="5" data-dots="false" data-swipe="true" data-nav="true" data-stage-padding="0"
+                <div id="pr_owl" class="owl-carousel owl-carousel-center owl3" data-items="1" data-md-items="3"
+                  data-xl-items="3" data-dots="false" data-swipe="true" data-nav="true" data-stage-padding="0"
                   data-loop="true" data-margin="0" data-mouse-drag="false" data-center="true" data-autoplay="false">
       
+                  <div id="pr_dv2" class="team-minimal">
+                    <div class="carta back-face">
+                      <img id="pr_card2" src="images/body/premios/meta2.png" alt="">
+                      <div id="info2">
+                        <div class="pr_txttitulo_">150 000</div>
+                        <p class="pr_txt3">Gold: 3 000 amount</p>
+                        <p class="pr_txt3">Ruby: 30 amount</p>
+                        <!-- <p class="pr_txt3">10 prizes</p> -->
+                      </div>
+                      <div id="pr_blocks2" class="blocks">
+                        <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
+                        Lock
+                      </div>
+                    </div>
+                  </div>
+
                   <div id="pr_dv3" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card3" src="images/body/premios/meta2.png" alt="">
@@ -189,23 +220,22 @@
                     </div>
                   </div>
       
-                  <div id="pr_dv4" class="team-minimal">
+                  <!-- <div id="pr_dv4" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card4" src="images/body/premios/meta2.png" alt="">
                       <div id="info4">
                         <div class="pr_txttitulo_">500 000</div>
                         <p class="pr_txt3">Energy: 50 amount</p>
                         <p class="pr_txt3">1 Head Skin: Tier 1 - Random</p>
-                        <!-- <p class="pr_txt3">10 prizes</p> -->
                       </div>
                       <div id="pr_blocks4" class="blocks">
                         <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
                         Lock
                       </div>
                     </div>
-                  </div>
+                  </div> -->
       
-                  <div id="pr_dv5" class="team-minimal">
+                  <!-- <div id="pr_dv5" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card5" src="images/body/premios/meta3.png" alt="">
                       <div id="info5">
@@ -220,7 +250,7 @@
                         Lock
                       </div>
                     </div>
-                  </div>
+                  </div> -->
 
                   <div id="pr_dv1" class="team-minimal">
                     <div class="carta back-face">
@@ -237,36 +267,91 @@
                       </div>
                     </div>      
                   </div>
-
-                  <div id="pr_dv2" class="team-minimal">
-                    <div class="carta back-face">
-                      <img id="pr_card2" src="images/body/premios/meta2.png" alt="">
-                      <div id="info2">
-                        <div class="pr_txttitulo_">150 000</div>
-                        <p class="pr_txt3">Gold: 3 000 amount</p>
-                        <p class="pr_txt3">Ruby: 30 amount</p>
-                        <!-- <p class="pr_txt3">10 prizes</p> -->
-                      </div>
-                      <div id="pr_blocks2" class="blocks">
-                        <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
-                        Lock
-                      </div>
-                    </div>
-                  </div>
       
                 </div>
-      
-      
-                <div id="div_btns_pr" class="col-md-12">
-      
-                  <a id="btn5" class="button button-default-outline button-nina button-lg btn_download"
-                    href="https://play.google.com/store/games?hl=es" target="_blank">&nbsp;</a>
-      
-                  <a id="btn6" class="button button-default-outline button-nina button-lg btn_download"
-                    href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
-                </div>
+                
               </div>
             </div>
+
+            <div class="col-md-12 col-lg-12 col-xl-12">
+              <div class="section-50 section-md-75 section-xl-100" id="pr_information__foot">
+                <p class="p_white__pr">* Event rewards are subject to change based on circumstances.</p>
+                <p class="p_white__pr">* To get rewards, please check your mailbox after creating an account</p>
+              </div>
+            </div>
+            
+      
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-cover" id="sec_pr2">
+        <div class="container container-wide2">
+          <h3 class="h3_sec_pr_fb">Official FB event</h3>
+          <div class="row">
+
+
+
+            <div class="pd_img_pr3">
+              <img id="pr_nubes2" src="images/body/explosion3.png" alt="" width="472" height="753" />
+              <img id="pr_img3" src="images/body/mobile.png" alt="" width="472" height="753" />
+            </div>
+
+            <div class="pd_img_pr4">
+              <img id="pr_img4" src="images/body/missile.png" alt="" width="472" height="753" />
+            </div>
+
+            <div class="col-md-12 col-lg-12 col-xl-8" id="pr_information2__1">
+              <div class="section-50 section-md-75 section-xl-100" id="pr_information2">
+
+                <div class="card__2">
+                  <div class="icon__2">
+                    <img class="__aro__pr" src="images/body/aro3.png" alt="">                    
+                  </div>
+                  <img id="_btn__like__pr" src="images/body/like.png" alt="">
+                  <div class="content__2">
+                    <p class="pr_txt__cnt_1">Event 1: LIKE IT</p>
+                    <hr class="hr_tt__pr">
+                    <p class="pr_txt__cnt_2">25 000 likes</p>
+                    <p class="pr_txt__cnt_2">Gold: 1 000 amount</p>
+                    <p class="pr_txt__cnt_2">Energy: 30 amount</p>
+                    <div id="cls__fb__like" class="fb-like" data-href="https://www.facebook.com/GunboundTLatino/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+                    
+                  </div>
+                </div>
+
+                <div class="card__2">
+                  <div class="icon__2">
+                    <img class="__aro__pr" src="images/body/aro3.png" alt="">
+                  </div>
+                  <img id="_btn__like__pr" src="images/body/compartir.png" alt="">
+                  <div class="content__2">
+                    <p class="pr_txt__cnt_1">Event 2: TO SHARE</p>
+                    <hr class="hr_tt__pr">
+                    <p class="pr_txt__cnt_2">first 100 shares</p>
+                    <p class="pr_txt__cnt_2">Ruby: 300 amount</p>
+                    <p class="pr_txt__cnt_2">1 Mobile Skin: Tier 2</p>                   
+                    
+                    <div id="cls__fb__share" class="fb-share-button" data-href="https://www.facebook.com/GunboundTLatino/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FGunboundTLatino%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+
+                    
+                  </div>
+                </div>
+                
+              </div>
+
+              <!-- <div id="__fb__gbt" class="fb-page" data-href="https://www.facebook.com/GunboundTLatino/" data-tabs="timeline" data-width="420" data-height="435" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GunboundTLatino/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GunboundTLatino/">Gunbound T Latino</a></blockquote></div> -->
+
+              <div id="__fb__gbt" class="fb-page" data-href="https://www.facebook.com/GunboundTLatino/" data-tabs="timeline" data-width="420" data-height="0" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GunboundTLatino/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GunboundTLatino/">Gunbound T Latino</a></blockquote></div>
+
+            </div>
+
+            <div class="col-md-12 col-lg-12 col-xl-12">
+              <div class="section-50 section-md-75 section-xl-100" id="pr_information__foot2">
+                <p class="p_white__pr">* For more information, please refer to the official <a href="https://www.facebook.com/GunboundTLatino/" target="_blank">Facebook page.</a></p>
+              </div>
+            </div>
+            
       
           </div>
         </div>
