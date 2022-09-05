@@ -20520,6 +20520,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	font-weight: 700;
 	font-size: 50px;
 	text-align: center;
+	text-shadow: 0px 0px 5px #fff;
 }
 
 @media (max-width: 767px){
@@ -20536,6 +20537,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		font-weight: 700;
 		font-size: 20px;
 		text-align: center;
+		text-shadow: 0px 0px 5px #fff;
 	}
 }
 
@@ -20735,9 +20737,9 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	position: absolute;
 	max-width: none;
 	filter: drop-shadow(-15px 60px 25px #ffe300);
-	/* top: -100px; */
 	top: 150px;
-	left: 325px;
+	left: 85px;
+	width: 20%;
 }
 
 #pr_img3 {
@@ -20748,7 +20750,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	right: -135%;
 }
 
-#div_btns_pr
+/* #div_btns_pr
 {
 	position: absolute;
 	padding-top: 15px;
@@ -20756,6 +20758,12 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	z-index: 1;
 	text-align: center;
     top: 125px;
+} */
+
+#div_btns_pr
+{
+	z-index: 1;
+	text-align: center;
 }
 
 #btn5
@@ -21271,11 +21279,11 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 .p_white__pr
 {
-	color: #000;
+	color: #f20000;
 	font-weight: bold;
 	font-family: Candara;
 	font-size: 20px;
-	text-shadow: 0px 0px 5px #fff;
+	text-shadow: 5px -5px 15px yellow;
 }
 
 #Iframe {
