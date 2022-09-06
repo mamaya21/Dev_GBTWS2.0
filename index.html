@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v6_13.css">
+    <link rel="stylesheet" href="css/style_v6_16.css">
     <!-- <link rel="stylesheet" href="css/style_slick.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
@@ -88,9 +88,11 @@
               <div class="rd-navbar-panel">
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/gbt_logo.PNG" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/gbt_logo.PNG" alt="" width="208" height="46"/></a></div>
               </div>
+              
               <div class="rd-navbar-aside-center">
                 <div class="rd-navbar-nav-wrap">
                   <!-- RD Navbar Nav-->
@@ -107,8 +109,22 @@
                     </li>
                   </ul>
                 </div>
+
+                <div class="rd-navbar-aside-right"><li class="nav-item dropdown">
+                  <a class="btn-group icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-earth" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                  
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Español</a>
+                    <a class="dropdown-item" href="#">Portugues (Portuguese)</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </div>
+                </li></div> 
+
               </div>
-              <!-- <div class="rd-navbar-aside-right"><a class="button button-sm button-secondary button-nina" href="#">Book a tour now</a></div> -->
+              
+              
+
+
             </div>
           </nav>
         </div>
@@ -156,39 +172,23 @@
               <img id="pr_img2" src="images/body/person2.png" alt="" width="472" height="753" />
             </div>
 
-            <div class="col-xl-5 d-none d-xl-block">
+            <div class="col-xl-1 d-none d-xl-block">
             </div>
 
-            <div class="col-md-12 col-lg-12 col-xl-7">
+            <div class="col-md-12 col-lg-12 col-xl-11" id="t__pr_information">
               <div class="pr_number" id="pr_number"></div>
                 <h4 id="pr_textonumber" class="h4_sec_pr_center" data-wow-delay=".3s">pre-registrations</h4> 
             </div>
 
-            <div class="col-xl-5 d-none d-xl-block">
+            <div class="col-xl-1 d-none d-xl-block">
             </div>
       
-            <div class="col-md-12 col-lg-12 col-xl-7">
+            <div class="col-md-12 col-lg-12 col-xl-11" id="m__pr_information">
               <div class="section-50 section-md-75 section-xl-100" id="pr_information">
       
-                <div id="pr_owl" class="owl-carousel owl-carousel-center owl3" data-items="1" data-md-items="3"
-                  data-xl-items="3" data-dots="false" data-swipe="true" data-nav="true" data-stage-padding="0"
+                <div id="pr_owl" class="owl-carousel owl-carousel-center owl3" data-items="1" data-md-items="5"
+                  data-xl-items="5" data-dots="false" data-swipe="true" data-nav="true" data-stage-padding="0"
                   data-loop="true" data-margin="0" data-mouse-drag="false" data-center="true" data-autoplay="false">
-      
-                  <div id="pr_dv2" class="team-minimal">
-                    <div class="carta back-face">
-                      <img id="pr_card2" src="images/body/premios/meta2.png" alt="">
-                      <div id="info2">
-                        <div class="pr_txttitulo_">150 000</div>
-                        <p class="pr_txt3">Gold: 3 000 amount</p>
-                        <p class="pr_txt3">Ruby: 30 amount</p>
-                        <!-- <p class="pr_txt3">10 prizes</p> -->
-                      </div>
-                      <div id="pr_blocks2" class="blocks">
-                        <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
-                        Lock
-                      </div>
-                    </div>
-                  </div>
 
                   <div id="pr_dv3" class="team-minimal">
                     <div class="carta back-face">
@@ -205,7 +205,7 @@
                       </div>
                     </div>
                   </div>
-      
+
                   <div id="pr_dv4" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card4" src="images/body/premios/meta2.png" alt="">
@@ -220,7 +220,7 @@
                       </div>
                     </div>
                   </div>
-      
+
                   <div id="pr_dv5" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card5" src="images/body/premios/meta3.png" alt="">
@@ -236,8 +236,8 @@
                         Lock
                       </div>
                     </div>
-                  </div> 
-
+                  </div>
+      
                   <div id="pr_dv1" class="team-minimal">
                     <div class="carta back-face">
                       <img id="pr_card1" src="images/body/premios/meta1.png" alt="">
@@ -253,6 +253,23 @@
                       </div>
                     </div>      
                   </div>
+
+                  <div id="pr_dv2" class="team-minimal">
+                    <div class="carta back-face">
+                      <img id="pr_card2" src="images/body/premios/meta2.png" alt="">
+                      <div id="info2">
+                        <div class="pr_txttitulo_">150 000</div>
+                        <p class="pr_txt3">Gold: 3 000 amount</p>
+                        <p class="pr_txt3">Ruby: 30 amount</p>
+                        <!-- <p class="pr_txt3">10 prizes</p> -->
+                      </div>
+                      <div id="pr_blocks2" class="blocks">
+                        <img class="pr_unlock" src="images/body/premios/lock-icon.png" alt="">
+                        Lock
+                      </div>
+                    </div>
+                  </div>
+                 
       
                 </div>
                 
@@ -268,14 +285,12 @@
                 href="https://www.apple.com/la/app-store/" target="_blank">&nbsp;</a>
             </div>
 
-            <div class="col-md-12 col-lg-12 col-xl-12">
-              <div class="section-50 section-md-75 section-xl-100" id="pr_information__foot">
+
+              <div id="pr_information__foot">
                 <p class="p_white__pr">* Event rewards are subject to change based on circumstances.</p>
                 <p class="p_white__pr">* To get rewards, please check your mailbox after creating an account</p>
               </div>
-            </div>
-            
-      
+
           </div>
         </div>
       </section>
@@ -306,11 +321,12 @@
                   <img id="_btn__like__pr" src="images/body/like.png" alt="">
                   <div class="content__2">
                     <p class="pr_txt__cnt_1">Event 1: LIKE IT</p>
-                    <hr class="hr_tt__pr">
-                    <p class="pr_txt__cnt_2">25 000 likes</p>
+                    <hr class="hr_tt__pr">                    
+                    <p class="pr_txt__cnt_2__1">25 000 likes</p>
                     <p class="pr_txt__cnt_2">Gold: 1 000 amount</p>
                     <p class="pr_txt__cnt_2">Energy: 30 amount</p>
-                    <div id="cls__fb__like" class="fb-like" data-href="https://www.facebook.com/GunboundTLatino/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+                    <p class="pr_txt__cnt_2">&nbsp;</p>
+                    <div id="cls__fb__like" class="fb-like" data-href="https://www.facebook.com/GunboundTLatino/" data-width="" data-layout="button" data-action="like" data-size="large" data-share="false"></div>
                     
                   </div>
                 </div>
@@ -323,9 +339,10 @@
                   <div class="content__2">
                     <p class="pr_txt__cnt_1">Event 2: TO SHARE</p>
                     <hr class="hr_tt__pr">
-                    <p class="pr_txt__cnt_2">first 100 shares</p>
-                    <p class="pr_txt__cnt_2">Ruby: 300 amount</p>
-                    <p class="pr_txt__cnt_2">1 Mobile Skin: Tier 2</p>                   
+                    <p class="pr_txt__cnt_2__1">first 3 000 shares</p>
+                    <p class="pr_txt__cnt_2">Energy: 20 amount</p>
+                    <p class="pr_txt__cnt_2">Gold: 3 000 amount</p>
+                    <p class="pr_txt__cnt_2">Ruby: 300 amount</p>                   
                     
                     <div id="cls__fb__share" class="fb-share-button" data-href="https://www.facebook.com/GunboundTLatino/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FGunboundTLatino%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
 
@@ -335,16 +352,22 @@
                 
               </div>
 
+              
+
               <!-- <div id="__fb__gbt" class="fb-page" data-href="https://www.facebook.com/GunboundTLatino/" data-tabs="timeline" data-width="420" data-height="435" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GunboundTLatino/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GunboundTLatino/">Gunbound T Latino</a></blockquote></div> -->
 
-              <div id="__fb__gbt" class="fb-page" data-href="https://www.facebook.com/GunboundTLatino/" data-tabs="timeline" data-width="420" data-height="0" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GunboundTLatino/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GunboundTLatino/">Gunbound T Latino</a></blockquote></div>
+              
 
             </div>
 
-            <div class="col-md-12 col-lg-12 col-xl-12">
-              <div class="section-50 section-md-75 section-xl-100" id="pr_information__foot2">
-                <p class="p_white__pr">* For more information, please refer to the official <a href="https://www.facebook.com/GunboundTLatino/" target="_blank">Facebook page.</a></p>
-              </div>
+            <div class="col-md-12 col-lg-12 col-xl-4" id="pr_information2__4">
+              <div id="__fb__gbt" class="fb-page" data-href="https://www.facebook.com/GunboundTLatino/" data-tabs="timeline" data-width="420" data-height="0" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GunboundTLatino/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GunboundTLatino/">Gunbound T Latino</a></blockquote></div>
+            </div>
+
+         
+
+            <div id="pr_information__foot2">
+              <p class="p_white__pr">* For more information, please refer to the official <a href="https://www.facebook.com/GunboundTLatino/" target="_blank">Facebook page.</a></p>
             </div>
             
       
@@ -371,11 +394,11 @@
                           <hr class="hr_tt6">
                           <!-- <img src="images/body/img_rank.PNG" alt=""> -->
                           <div class="rd_mobile_video">
-                            <video src="video/juego.mp4" muted loop autoplay preload="auto" playsinline></video>
+                            <video src="video/GBTPlay.mp4" muted loop autoplay preload="auto" playsinline></video>
                           </div>
                         </div>
                         <br>
-                        <label class="lbl_notices">GunboundT is the classic Gunbound action shooter game set and designed exclusively for mobile devices. A game that is full of action, multiplayer mode, and highly competitive for you to play alone or as a team, and win your battles... ¡GunboundT has all this and much more!            
+                        <label class="lbl_notices">GunboundT is the classic Gunbound action shooter game set and designed exclusively for mobile devices.         
                         </label>
                         <h4 class="h4_description">FREE FOR MOBILE</h4>
                         <label class="lbl_notices">Totally free for smartphone so you can enjoy all the game modes, with many maps and high quality 3D graphics. You will have a great experience with precise touch controls and a unique movement system. GunboundT puts action-packed gameplay at your fingertips!          
@@ -401,24 +424,22 @@
                         <div class="owl-carousel owl-layout-1" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-autoplay="true" style="
                         margin-top: 20px;">
                           <article class="quote-boxed">
-                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/news/news1.png" alt="" width="210" height="210"/>
+                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/news/news8.png" alt="" width="210" height="210"/>
                             </div>
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
-                                <p class="p_white">General Maintenance - September 03 (03:00 to 18:00 GMT-5) </p>
-                                <!-- <label class="lbl_notices">hello gunbas, to inform you that a general maintenance of the server will be carried out at the indicated time. be attentive in case there are failures in your game</label> -->
+                                <p class="p_white">We have release date pre-registration Gunbound T: 16-09-2022</p>
                               </div>
                               <br>
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
                           </article>
-                          <article class="quote-boxed">
+                          <!-- <article class="quote-boxed">
                             <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/news/news2.png" alt="" width="210" height="210"/>
                             </div>
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
                                 <p class="p_white">General Maintenance - September 03 (03:00 to 18:00 GMT-5)</p>
-                                <!-- <label class="lbl_notices">hello gunbas, to inform you that a general maintenance of the server will be carried out at the indicated time. be attentive in case there are failures in your game</label> -->
                               </div>
                               <br>
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
@@ -430,12 +451,11 @@
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
                                 <p class="p_white">General Maintenance - September 03 (03:00 to 18:00 GMT-5)</p>
-                                <!-- <label class="lbl_notices">hello gunbas, to inform you that a general maintenance of the server will be carried out at the indicated time. be attentive in case there are failures in your game</label> -->
                               </div>
                               <br>
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
-                          </article>
+                          </article> -->
                         </div>
                       </div>
 
@@ -451,42 +471,31 @@
                         margin-top: 20px;">
                         
                           <article class="quote-boxed">
+                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/shares.png" alt="" width="210" height="210"/>
+                            </div> 
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
-                                <p class="p_white">Gunbound tournament event at the end of the month.</p>
+                                <p class="p_white">Win prizes with the Gunbound T page sharing event. Learn more through our networks.</p>
                                 <!-- <label class="lbl_notices">hello gunbas, an event is taking place where you can participate and win prizes. Follow us and find out everything.</label> -->
                               </div>
                               <br>
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
-                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad1.jpg" alt="" width="210" height="210"/>
-                            </div>                            
+                                                       
                           </article>
 
                           <article class="quote-boxed">
+                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/like.png" alt="" width="210" height="210"/>
+                            </div>
                             <div class="quote-boxed-main">
                               <div class="quote-boxed-text">
-                                <p class="p_white">Gunbound fan page awards every day.</p>
+                                <p class="p_white">Win prizes with the Gunbound T page like event. Learn more through our networks.</p>
                                 <!-- <label class="lbl_notices">hello gunbas, an event is taking place where you can participate and win prizes. Follow us and find out everything.</label> -->
                               </div>
                               <br>
                               <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
                             </div>
-                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad2.jpg" alt="" width="210" height="210"/>
-                            </div>                            
-                          </article>
-
-                          <article class="quote-boxed">
-                            <div class="quote-boxed-main">
-                              <div class="quote-boxed-text">
-                                <p class="p_white">Gunbound social media follower awards weekend.</p>
-                                <!-- <label class="lbl_notices">hello gunbas, an event is taking place where you can participate and win prizes. Follow us and find out everything.</label> -->
-                              </div>
-                              <br>
-                              <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
-                            </div>
-                            <div class="quote-boxed-aside"><img class="quote-boxed-image img_news" src="images/body/comunity/comunidad3.jpg" alt="" width="210" height="210"/>
-                            </div>                            
+                                                        
                           </article>
 
                         </div>
@@ -512,7 +521,7 @@
                             <div class="socialMedia">
                               <ul class="sci">
                                 <li data-text="Facebook" data-color="#1877f2" class="socmed_li">
-                                  <a href="#" class="facebook">
+                                  <a href="https://www.facebook.com/GunboundTLatino" target="_blank" class="facebook">
                                     <i class="fa-brands fa-facebook" area-hidden="true"></i>
                                   </a>
                                 </li>
@@ -521,11 +530,11 @@
                                     <i class="fa-brands fa-youtube" area-hidden="true"></i>
                                   </a>
                                 </li>
-                                <li data-text="Instagram" data-color="#e4405f" class="socmed_li">
+                                <!-- <li data-text="Instagram" data-color="#e4405f" class="socmed_li">
                                   <a href="#" class="instagram">
                                     <i class="fa-brands fa-instagram" area-hidden="true"></i>
                                   </a>
-                                </li>
+                                </li> -->
                                 <li data-text="Discord" data-color="#61a6ff" class="socmed_li">
                                   <a href="#" class="discord">
                                     <i class="fa-brands fa-discord" area-hidden="true"></i>
@@ -533,7 +542,7 @@
                                 </li>
                               </ul>
                     
-                              <a class="button button-default-outline button-nina button-sm" href="#">See more</a>
+                              <!-- <a class="button button-default-outline button-nina button-sm" href="#">See more</a> -->
                             </div>
                           </div>
                     
@@ -818,11 +827,8 @@
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
               <ul class="group-xs group-middle"> 
                 <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="#"></a></li>
-                <!-- <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li> -->
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-youtube-play" href="#"></a></li>
-                <!-- <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin" href="#"></a></li> -->
+                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled fa-brands fa-discord" href="#"></a></li>
+                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled fa-brands fa-youtube" href="#"></a></li>
               </ul>
             </div>
           </div>
