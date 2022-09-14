@@ -22004,6 +22004,11 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	{
 		content: url('../images/bgs/bg_movGBT.png');
 	}
+
+	#dv_contenidosocial
+	{
+		left: 0;
+	}	
 }
 
 .goal
