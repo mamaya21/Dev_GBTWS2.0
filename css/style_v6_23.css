@@ -18498,6 +18498,15 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	min-width: 180px;
 }
 
+#btn3_PT
+{
+	background: url('../images/body/android_PT.png') center;
+	background-size: 105% 140%;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
 #btn4
 {
 	background: url('../images/body/badge_apple.svg') center;
@@ -18510,6 +18519,15 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 #btn4_ESP
 {
 	background: url('../images/body/apple_ESP.svg') center;
+	background-size: 102% 120%;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
+#btn4_PT
+{
+	background: url('../images/body/apple_PT.svg') center;
 	background-size: 102% 120%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -21086,6 +21104,15 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	min-width: 180px;
 }
 
+#btn5_PT
+{
+	background: url('../images/body/android_PT.png') center;
+	background-size: 100% 130%;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
 #btn6
 {
 	background: url('../images/body/badge_apple.svg') center;
@@ -21097,6 +21124,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 #btn6_ESP
 {
 	background: url('../images/body/apple_ESP.svg') center;
+	background-size: cover;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
+#btn6_PT
+{
+	background: url('../images/body/apple_PT.svg') center;
 	background-size: cover;
 	border-radius: 12px;
 	min-width: 180px;
@@ -21121,6 +21156,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		min-width: 180px;
 	}
 
+	#btn3_PT
+	{
+		background: url('../images/body/android_PT.png') center;
+		background-size: 105% 150%;
+		border-radius: 10px;
+		min-width: 180px;
+	}
+
 	#btn4
 	{
 		background: url('../images/body/apple.png') center;
@@ -21132,6 +21175,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	#btn4_ESP
 	{
 		background: url('../images/body/apple_ESP.svg') center;
+		background-size: 105% 150%;
+		border-radius: 10px;
+		min-width: 180px;
+	}
+
+	#btn4_PT
+	{
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21153,6 +21204,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		min-width: 150px;
 	}
 
+	#btn5_PT
+	{
+		background: url('../images/body/android_PT.png') center;
+		background-size: 100% 135%;
+		border-radius: 12px;
+		min-width: 150px;
+	}
+
 	#btn6
 	{
 		background: url('../images/body/apple.png') center;
@@ -21164,6 +21223,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	#btn6_ESP
 	{
 		background: url('../images/body/apple_ESP.svg') center;
+		background-size: 110% 120%;
+		border-radius: 12px;
+		min-width: 150px;
+	}
+
+	#btn6_PT
+	{
+		background: url('../images/body/android_PT.png') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21205,6 +21272,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		min-width: 180px;
 	}
 
+	#btn3_PT
+	{
+		background: url('../images/body/android_PT.png') center;
+		background-size: 105% 140%;
+		border-radius: 10px;
+		min-width: 180px;
+	}
+
 	#btn4
 	{
 		background: url('../images/body/apple.png') center;
@@ -21216,6 +21291,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	#btn4_ESP
 	{
 		background: url('../images/body/apple_ESP.svg') center;
+		background-size: 105% 150%;
+		border-radius: 10px;
+		min-width: 180px;
+	}
+
+	#btn4_PT
+	{
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21237,6 +21320,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 		min-width: 140px;
 	}
 
+	#btn5_PT
+	{
+		background: url('../images/body/android_PT.png') center;
+		background-size: 105% 135%;
+		border-radius: 12px;
+		min-width: 140px;
+	}
+
 	#btn6
 	{
 		background: url('../images/body/apple.png') center;
@@ -21248,6 +21339,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	#btn6_ESP
 	{
 		background: url('../images/body/apple_ESP.svg') center;
+		background-size: 110% 120%;
+		border-radius: 12px;
+		min-width: 140px;
+	}
+
+	#btn6_PT
+	{
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21932,7 +22031,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	-webkit-text-fill-color: transparent;
 	font-family: Blockhead;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .pr_txt__cnt_2
