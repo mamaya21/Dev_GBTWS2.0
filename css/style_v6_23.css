@@ -22604,7 +22604,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #bg__gbt
 {
-	content: url('../images/bgs/bg_webGBT2.png');
+	content: url('../images/bgs/bg_webGBT2.png'); 
 }
 
 @media (max-width: 991px){
