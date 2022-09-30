@@ -22538,8 +22538,8 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 {
 	.pd_img_pr4 {
 		position: absolute;
-		top: 80px;
-		width: 75px;
+		top: 87px;
+		width: 65px;
 		left: 40%;
 	}
 
@@ -23387,7 +23387,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#pr_img4
 	{
-		max-width: 80%;
+		max-width: 65%;
 	}
 
 }
