@@ -329,30 +329,35 @@ a:hover, a:focus {
 
 h1,
 .heading-1 {
-	font-size: 34px;
+	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0.12em;
+	font-family: Blockhead;
+
 }
 
 @media (min-width: 768px) {
 	h1,
 	.heading-1 {
-		font-size: 42px;
+		font-size: 12px;
 		line-height: 1.45;
+		font-family: Blockhead;
 	}
 }
 
 @media (min-width: 1200px) {
 	h1,
 	.heading-1 {
-		font-size: 60px;
+		font-size: 30px;
+		font-family: Blockhead;
 	}
 }
 
 @media (min-width: 1600px) {
 	h1,
 	.heading-1 {
-		font-size: 80px;
+		font-size: 50px;
+		font-family: Blockhead;
 	}
 }
 
@@ -2938,7 +2943,7 @@ section {
 		padding: 0 40px;
 	}
 	.breadcrumbs-custom-title::before, .breadcrumbs-custom-title::after {
-		content: url("../images/breadcrumbs-decorate.png");
+		content: url("../images/bgs/breadcrumbs-decorate.png");
 		position: absolute;
 		top: 25%;
 		transform: translateY(-50%);
@@ -7169,7 +7174,7 @@ textarea.form-input.form-input-lg {
 .section-xxl,
 .section-variant-1,
 .section-variant-2 {
-	padding: 60px 0;
+	padding: 20px 0;
 }
 
 .section-lg-top {
@@ -7225,7 +7230,7 @@ textarea.form-input.form-input-lg {
 		padding-bottom: 80px;
 	}
 	.breadcrumbs-custom-wrap + .section-lg, .breadcrumbs-custom-wrap + .section-custom {
-		padding-top: 100px;
+		padding-top: 15px;
 	}
 	.section-xl {
 		padding-top: 130px;
@@ -7257,7 +7262,7 @@ textarea.form-input.form-input-lg {
 		padding-top: 165px;
 	}
 	.breadcrumbs-custom-wrap + .section-lg, .breadcrumbs-custom-wrap + .section-custom {
-		padding-top: 170px;
+		padding-top: 20px;
 	}
 	.section-lg-alternative {
 		padding-top: 130px;
@@ -23901,4 +23906,71 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 {
 	display: flex;
 	flex-direction: row;
+}
+
+#li__home{
+	font-weight: bold;
+}
+
+#li__FAQ{
+	color: #ffe300 !important;
+	font-weight: bold;
+}
+
+[data-toggle="collapse"]:after {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f054";
+	transform: rotate(90deg);
+	transition: all linear 0.25s;
+	float: right;
+}
+
+[data-toggle="collapse"].collapsed:after {
+	transform: rotate(0deg);
+}
+
+.style__gbt__FAQ
+{
+	font-family: Blockhead;
+	font-size: 14px;
+}
+
+.card-body
+{
+	color: #000;
+}
+
+.p__faq
+{
+	font-family: Candara;
+	font-size: 16px;
+}
+
+.dv_img__FAQ
+{
+	align-items: center;
+	text-align: center;
+}
+
+.img__FAQ
+{
+	max-width: 40% !important;
+}
+
+.h_tittle__FAQ
+{
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: -webkit-linear-gradient(#e94014, #ffe300);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(-24px 26px 60px #ffe300);
+	font-family: Blockhead;
+	font-size: 22px;
 }
