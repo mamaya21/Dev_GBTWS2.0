@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v7_04.css">
+    <link rel="stylesheet" href="css/style_v7_05.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -77,23 +77,25 @@
       <!-- Page Header-->
       <header class="section page-header">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-corporate">
+        <div class="rd-navbar-wrap rd-navbar-corporate stilo__sinheight">
           <nav id="navegador" class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="100px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <!-- <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div> -->
 
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
                 
-
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/header/gbt_logo.PNG" alt="" width="208" height="46"/><img class="logo-inverse" src="images/header/gbt_logo.PNG" alt="" width="208" height="46"/></a></div>
               
                 <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <button class="rd-navbar-toggle btn__menu" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                  <!-- <span></span> -->
+                  <p class="menu__btn_p">Menu&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                </button>
               </div>
               
-              <div class="rd-navbar-aside-center">
+              <div class="evento__menu">
                 <div class="rd-navbar-nav-wrap">
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
@@ -109,24 +111,19 @@
                     </li>
                     <li><a href="FAQ/FAQ_ENG.html">FAQ</a>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="icon-md-middle mdi mdi-earth"></span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="es.html">Spanish</a>
+                        <a class="dropdown-item" href="pt.html">Portuguese</a>
+                        <a class="dropdown-item" href="#">English</a>
+                      </div>
+                    </li>
                   </ul>
                 </div>
-
-                <div class="rd-navbar-aside-right"><li class="nav-item dropdown">
-                  <a class="btn-group icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-earth" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                  
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="es.html">Spanish</a>
-                    <a class="dropdown-item" href="pt.html">Portuguese</a>
-                    <a class="dropdown-item" href="#">English</a>
-                  </div>
-                </li></div> 
-
               </div>
-              
-              
-
-
             </div>
           </nav>
         </div>
