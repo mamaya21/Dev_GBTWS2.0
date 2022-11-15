@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_v7_08.css">
+    <link rel="stylesheet" href="css/style_v7_09.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -393,8 +393,10 @@
                         
                         <label id="lbl_notices__es" class="lbl_notices">Antes do registro da história, em uma galáxia distante, havia um planeta chamado Rondo, com sete luas.
                           Sob o sábio governo da princesa Lena e do primeiro-ministro Observador, as tribos Hu Boee, Adium e Miramo estavam florescendo em uma brilhante civilização antiga com as bênçãos  do continente.
+                          <br>
                           A paz durou pouco, o ataque do Observador, que recebeu o poder das trevas, levou a uma terrível guerra que durou centenas de anos.
                           Em meio ao confronto entre Observador e a oposição, poderá o planeta Rondo encontrar esperança para as gerações futuras...?
+                          <br>
                           Convidamos você para o mundo de Gunbound para embarcar em uma aventura e recuperar a liberdade e a paz.    
                         </label>
                         <h4 class="h4_description">GRATUITO PARA CELULAR</h4>
@@ -415,7 +417,7 @@
                     
                     <div class="col-md-12 col-lg-12 col-xl-6 dv_chl_comunity">
                       
-                      <div class="col-md-12 dv_op_news">
+                      <div class="col-md-12 dv_op_news" id="dv_op_news1">
                         <h4 class="h4_mobile">NOTÍCIAS</h4>
                         <hr class="hr_tt5">
                         <div id="owl-carousel-commu__esp" class="owl-carousel owl-layout-1" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-autoplay="true" style="
@@ -448,7 +450,7 @@
 
                       <br>
 
-                      <div class="col-md-12 dv_op_news">
+                      <div class="col-md-12 dv_op_news" id="dv_op_news2">
                         <h4 class="h4_mobile">COMUNIDADE</h4>
                         <hr class="hr_tt5">
 
@@ -485,114 +487,118 @@
                       </div>
                     </div>
 
-                    <div class="col-md-12 dv_chl_comunity">
-                      <div class="col-md-12 dv_op_news">
-                        <h4 class="h4_mobile">REDES SOCIAIS</h4>
-                        <hr class="hr_tt6">
-                        <div class="row dv_socialicons">
-                          <div class="col-md-7 col-xs-12 dv_cscom">
-                            <div class="socialMedia">
-                              <ul class="sci">
-                                <li data-text="Facebook" data-color="#1877f2" class="socmed_li">
-                                  <a href="https://www.facebook.com/GunboundTBrasil" target="_blank" class="facebook">
-                                    <i class="fa-brands fa-facebook" area-hidden="true"></i>
-                                  </a>
-                                </li>
-                                <li data-text="Youtube" data-color="#ff0000" class="socmed_li">
-                                  <a href="https://www.youtube.com/channel/UCWz9Ad3nGs563T50SgkSZHw" target="_blank" class="youtube">
-                                    <i class="fa-brands fa-youtube" area-hidden="true"></i>
-                                  </a>
-                                </li>
-                                <li data-text="Discord" data-color="#61a6ff" class="socmed_li">
-                                  <a href="https://discord.gg/42Z2Y4e6cv" target="_blank" class="discord">
-                                    <i class="fa-brands fa-discord" area-hidden="true"></i>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
+                    
+                  </div>
+
+                  <div style="clear: both;"></div>
+
+                  <div class="col-md-12 dv_chl_comunity">
+                    <div class="col-md-12 dv_op_news">
+                      <h4 class="h4_mobile">REDES SOCIAIS</h4>
+                      <hr class="hr_tt6">
+                      <div class="row dv_socialicons">
+                        <div class="col-md-7 col-xs-12 dv_cscom">
+                          <div class="socialMedia">
+                            <ul class="sci">
+                              <li data-text="Facebook" data-color="#1877f2" class="socmed_li">
+                                <a href="https://www.facebook.com/GunboundTBrasil" target="_blank" class="facebook">
+                                  <i class="fa-brands fa-facebook" area-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li data-text="Youtube" data-color="#ff0000" class="socmed_li">
+                                <a href="https://www.youtube.com/channel/UCWz9Ad3nGs563T50SgkSZHw" target="_blank" class="youtube">
+                                  <i class="fa-brands fa-youtube" area-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li data-text="Discord" data-color="#61a6ff" class="socmed_li">
+                                <a href="https://discord.gg/42Z2Y4e6cv" target="_blank" class="discord">
+                                  <i class="fa-brands fa-discord" area-hidden="true"></i>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
-                    
-                          <div class="col-md-4 col-xs-12 dv_cscom" id="dv_contenidosocial">
-                    
-                    
-                            <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_FB" style="display: none;">
-                              <article class="quote-boxed">
-                                <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/fb.jpg" alt="" width="80"
-                                    height="80"/>
-                                </div>
-                                <div class="quote-boxed-main p_white">
-                                  <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
-                    
-                                  <ul class="list-inline list-team">
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
-                                        href="#"></a>&nbsp;1256</li>
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
-                                        href="#"></a>&nbsp;8643</li>
-                                  </ul>
-                                </div>
-                              </article>
-                            </div>
-                    
-                            <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_YT" style="display: none;">
-                              <article class="quote-boxed">
-                                <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/yt.jpg" alt="" width="80"
-                                    height="80"/>
-                                </div>
-                                <div class="quote-boxed-main p_white">
-                                  <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
-                    
-                                  <ul class="list-inline list-team">
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
-                                        href="#"></a>&nbsp;5465</li>
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
-                                        href="#"></a>&nbsp;45662</li>
-                                  </ul>
-                                </div>
-                              </article>
-                            </div>
-                    
-                            <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_IG" style="display: none;">
-                              <article class="quote-boxed">
-                                <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news2.png" alt="" width="80"
-                                    height="80"/>
-                                </div>
-                                <div class="quote-boxed-main p_white">
-                                  <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound LA</a></h5>
-                    
-                                  <ul class="list-inline list-team">
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
-                                        href="#"></a>&nbsp;54654</li>
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
-                                        href="#"></a>&nbsp;16351</li>
-                                  </ul>
-                                </div>
-                              </article>
-                            </div>
-                    
-                            <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_DC" style="display: none;">
-                              <article class="quote-boxed">
-                                <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news1.png" alt="" width="80"
-                                    height="80"/>
-                                </div>
-                                <div class="quote-boxed-main p_white">
-                                  <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
-                    
-                                  <ul class="list-inline list-team">
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
-                                        href="#"></a>&nbsp;1256</li>
-                                    <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
-                                        href="#"></a>&nbsp;1256</li>
-                                  </ul>
-                                </div>
-                              </article>
-                            </div>
-                          </div>
-                    
                         </div>
-                    
+                  
+                        <div class="col-md-4 col-xs-12 dv_cscom" id="dv_contenidosocial">
+                  
+                  
+                          <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_FB" style="display: none;">
+                            <article class="quote-boxed">
+                              <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/fb.jpg" alt="" width="80"
+                                  height="80" />
+                              </div>
+                              <div class="quote-boxed-main p_white">
+                                <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
+                  
+                                <ul class="list-inline list-team">
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
+                                      href="#"></a>&nbsp;1256</li>
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
+                                      href="#"></a>&nbsp;8643</li>
+                                </ul>
+                              </div>
+                            </article>
+                          </div>
+                  
+                          <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_YT" style="display: none;">
+                            <article class="quote-boxed">
+                              <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/perfiles/yt.jpg" alt="" width="80"
+                                  height="80" />
+                              </div>
+                              <div class="quote-boxed-main p_white">
+                                <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
+                  
+                                <ul class="list-inline list-team">
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
+                                      href="#"></a>&nbsp;5465</li>
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
+                                      href="#"></a>&nbsp;45662</li>
+                                </ul>
+                              </div>
+                            </article>
+                          </div>
+                  
+                          <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_IG" style="display: none;">
+                            <article class="quote-boxed">
+                              <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news2.png" alt="" width="80"
+                                  height="80" />
+                              </div>
+                              <div class="quote-boxed-main p_white">
+                                <h5 class="tit_minsocial"><a class="team-classic-title" href="#">Gunbound LA</a></h5>
+                  
+                                <ul class="list-inline list-team">
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
+                                      href="#"></a>&nbsp;54654</li>
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
+                                      href="#"></a>&nbsp;16351</li>
+                                </ul>
+                              </div>
+                            </article>
+                          </div>
+                  
+                          <div class="hdndv_contenidosocial" id="hdndv_contenidosocial_DC" style="display: none;">
+                            <article class="quote-boxed">
+                              <div class="quote-boxed-aside"><img class="imgsocialmini" src="images/body/news/news1.png" alt="" width="80"
+                                  height="80" />
+                              </div>
+                              <div class="quote-boxed-main p_white">
+                                <h5 class="tit_minsocial"><a class="team-classic-title" href="#">GunboundT Latino</a></h5>
+                  
+                                <ul class="list-inline list-team">
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-thumb-up"
+                                      href="#"></a>&nbsp;1256</li>
+                                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-bell"
+                                      href="#"></a>&nbsp;1256</li>
+                                </ul>
+                              </div>
+                            </article>
+                          </div>
+                        </div>
+                  
                       </div>
-                    
+                  
                     </div>
+                  
                   </div>
                 
               </div>              
@@ -615,8 +621,7 @@
                   </div>
                 </div> -->
                 <div class="team-minimal">
-                  <figure><img class="img_mbl2" src="images/body/mobiles_person/resize/01_armor_.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
+                  <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/01_Armor.gif" alt="" width="370" height="370"></figure>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>armor</a></h4>
                   </div>
@@ -665,14 +670,12 @@
                 </div>  
                 <div class="team-minimal">
                   <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/08_Lightning.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>Lightning</a></h4>
                   </div>
                 </div>   
                 <div class="team-minimal">
                   <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/09_Ice.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>Ice</a></h4>
                   </div>
@@ -686,21 +689,18 @@
                 </div>  -->
                 <div class="team-minimal">
                   <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/11_Asate.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>Asate</a></h4>
                   </div>
                 </div>
                 <div class="team-minimal">
                   <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/12_Turtle.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>Turtle</a></h4>
                   </div>
                 </div>
                 <div class="team-minimal">
                   <figure><img class="img_mbl2" src="images/body/mobiles_person/gif/13_Jd.gif" alt="" width="370" height="370"></figure>
-                  <br><br>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a>Jd</a></h4>
                   </div>
