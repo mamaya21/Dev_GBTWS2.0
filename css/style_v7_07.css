@@ -6131,6 +6131,22 @@ textarea.form-input.form-input-lg {
 	}
 }
 
+@media (min-width:1463px) and (max-width:1489px)
+{
+	.h4_mobile {
+		font-size: 39px !important;
+	}
+
+	.h4_mobile_info__esp {
+		font-size: 32px !important;
+	}
+
+	.lbl_notices {
+		font-size: 15px !important;
+	}
+	
+}
+
 @media (min-width:1386px) and (max-width:1462px)
 {
 	.h4_mobile {
@@ -19760,7 +19776,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 {
 	color: #fff;
 	font-family: Candara;
-	font-size: 17px;
+	font-size: 15px;
 	text-align: justify;
 	margin-top: 15px;;
 }
