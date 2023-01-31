@@ -228,7 +228,7 @@ body {
 	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	/*line-height: 1.6;*/
+	line-height: 1.6;
 	color: #838386;
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
@@ -238,7 +238,7 @@ body {
 @media (min-width: 992px) {
 	body {
 		font-size: 16px;
-		/*line-height: 1.55556;*/
+		line-height: 1.55556;
 	}
 }
 
@@ -252,7 +252,7 @@ body {
 * Links
 */
 a {
-/*	color: #ffa900;*/
+	color: #ffa900;
 	text-decoration: none;
 	transition: .25s;
 }
@@ -320,7 +320,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^=
 }
 
 a {
-/*	display: inline-block;*/
+	display: inline-block;
 }
 
 a:hover, a:focus {
@@ -348,7 +348,7 @@ h1,
 @media (min-width: 1200px) {
 	h1,
 	.heading-1 {
-		/*font-size: 30px;*/
+		font-size: 30px;
 		font-family: Blockhead;
 	}
 }
@@ -356,7 +356,7 @@ h1,
 @media (min-width: 1600px) {
 	h1,
 	.heading-1 {
-		/*font-size: 50px;*/
+		font-size: 50px;
 		font-family: Blockhead;
 	}
 }
@@ -770,7 +770,7 @@ mark,
 }
 
 .blick-overlay[data-blick-overlay='ipad'] {
-	background-image: url(https://img.softnyx.com/resources/gunboundt/esp/teaser/blick-01.png);
+	background-image: url(../images/blick-01.png);
 }
 
 .blick-content {
@@ -2943,7 +2943,7 @@ section {
 		padding: 0 40px;
 	}
 	.breadcrumbs-custom-title::before, .breadcrumbs-custom-title::after {
-		content: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/bgs/breadcrumbs-decorate.png");
+		content: url("../images/bgs/breadcrumbs-decorate.png");
 		position: absolute;
 		top: 25%;
 		transform: translateY(-50%);
@@ -6109,6 +6109,18 @@ textarea.form-input.form-input-lg {
 		padding-top: 10px !important;
 		padding-bottom: 10px !important;
 	}
+
+	.h4_description__new
+	{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
+	.h4_description__newt
+	{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
 }
 
 @media (min-width:576px) and (max-width:1224px)
@@ -6117,6 +6129,18 @@ textarea.form-input.form-input-lg {
 		width: 210px !important;
 	}
 	.h4_description
+	{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
+	.h4_description__new
+	{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
+	.h4_description__newt
 	{
 		padding-top: 10px !important;
 		padding-bottom: 10px !important;
@@ -6169,6 +6193,11 @@ textarea.form-input.form-input-lg {
 		font-size: 35px !important;
 	}
 
+	.h4_mobile_info__esp {
+		font-size: 28px !important;
+	}
+
+
 	.lbl_notices {
 		font-size: 15px !important;
 	}
@@ -6179,6 +6208,10 @@ textarea.form-input.form-input-lg {
 {
 	.h4_mobile {
 		font-size: 35px !important;
+	}
+
+	.h4_mobile_info__esp {
+		font-size: 28px !important;
 	}
 
 	.lbl_notices {
@@ -6195,6 +6228,10 @@ textarea.form-input.form-input-lg {
 {
 	.h4_mobile {
 		font-size: 30px !important;
+	}
+
+	.h4_mobile_info__esp {
+		font-size: 26px !important;
 	}
 
 	.lbl_notices {
@@ -8164,7 +8201,7 @@ html.lt-ie-10 .row-narrow > * + [class*='col'],
 * --------------------------------------------------
 */
 * + p {
-	/*margin-top: 15px;*/
+	margin-top: 15px;
 }
 
 p + p {
@@ -9143,7 +9180,7 @@ h3 + .divider + h5 + p {
 }
 
 .divider-decorate:before {
-	content: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/body/line.png");
+	content: url("../images/body/line.png");
 	height: 1px;
 }
 
@@ -15210,6 +15247,21 @@ html.tablet .ui-to-top {
 	padding-bottom: 100px;
 }
 
+@media (min-width: 768px) {
+	.swiper-main-section {
+		padding-top: 250px;
+		padding-bottom: 100px;
+	}
+}
+
+@media (min-width: 992px) {
+	.desktop .swiper-main-section {
+		padding-top: 250px;
+		padding-bottom: 130px;
+	}
+}
+
+
 /* @media (min-width: 992px) {
 	.desktop .swiper-main-section {
 		padding-top: 200px;
@@ -16275,15 +16327,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-vimeo .lg-video-play {
-	background: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/vimeo-play.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/vimeo-play.png") no-repeat scroll 0 0 transparent;
 }
 
 .lg-outer .lg-has-vimeo:hover .lg-video-play {
-	background: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/vimeo-play.png") no-repeat scroll 0 -58px transparent;
+	background: url("../images/vimeo-play.png") no-repeat scroll 0 -58px transparent;
 }
 
 .lg-outer .lg-has-html5 .lg-video-play {
-	background: transparent url("https://img.softnyx.com/resources/gunboundt/esp/teaser/video-play.png") no-repeat scroll 0 0;
+	background: transparent url("../images/video-play.png") no-repeat scroll 0 0;
 	height: 64px;
 	margin-left: -32px;
 	margin-top: -32px;
@@ -16296,11 +16348,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-youtube .lg-video-play {
-	background: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/youtube-play.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/youtube-play.png") no-repeat scroll 0 0 transparent;
 }
 
 .lg-outer .lg-has-youtube:hover .lg-video-play {
-	background: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/youtube-play.png") no-repeat scroll 0 -60px transparent;
+	background: url("../images/youtube-play.png") no-repeat scroll 0 -60px transparent;
 }
 
 .lg-outer .lg-video-object {
@@ -17802,7 +17854,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-item {
-	background: url("https://img.softnyx.com/resources/gunboundt/esp/teaser/loading.gif") no-repeat scroll center center transparent;
+	background: url("../images/loading.gif") no-repeat scroll center center transparent;
 	display: none !important;
 }
 
@@ -18330,7 +18382,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 }
 
 .btn_mrk1{
-	background-image: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/store.jpg');
+	background-image: url('../images/body/store.jpg');
 }
 
 .showcase
@@ -18419,6 +18471,12 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 		top: 610px !important;
 	}
 
+	#div_btns__bg__pr
+	{
+		/* top: 325px !important; */
+		top: 610px !important;
+	}
+
 	.simply-amount
 	{
 		font-size: 30px !important;
@@ -18451,6 +18509,12 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 @media (min-width: 1600px) and (max-width: 1799px) {
 	#div_btns
+	{
+		/* top: 275px !important; */
+		top: 610px !important;
+	}
+
+	#div_btns__bg__pr
 	{
 		/* top: 275px !important; */
 		top: 610px !important;
@@ -18572,6 +18636,13 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 		/* top: 455px !important; */
 	}
 
+	#div_btns__bg__pr
+	{
+		/* top: 235px !important; */
+		top: 615px !important;
+		/* top: 455px !important; */
+	}
+
 	.simply-amount
 	{
 		font-size: 20px !important;
@@ -18581,6 +18652,12 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 @media (min-width: 768px) and (max-width: 991px){
 
 	#div_btns
+	{
+		/* top: 155px !important; */
+		top: 340px !important;
+	}
+
+	#div_btns__bg__pr
 	{
 		/* top: 155px !important; */
 		top: 340px !important;
@@ -18645,6 +18722,13 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	display: inline !important;
 } */
 
+@media (max-width: 490px){
+	#ct2__pt{
+		padding-top: 10px !important;
+	}
+}
+
+
 #cts
 {
 	position: relative;
@@ -18658,7 +18742,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn1
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android.png') center;
+	background: url('../images/body/android.png') center;
 	background-size: 100% 100%;
 	border-radius: 12px;
 	min-width: 180px;
@@ -18666,7 +18750,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn2
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+	background: url('../images/body/apple.png') center;
 	background-size: 100% 100%;
 	border-radius: 12px;
 	min-width: 180px;
@@ -18674,7 +18758,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn_auxiliar
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/premios/btn_register.png') center;
+	background: url('../images/body/premios/btn_register.png') center;
 	background-size: 100% 100%;
 	border: none;
 	border-radius: 0%;
@@ -18684,7 +18768,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 	#btn1
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android.png') center;
+		background: url('../images/body/android.png') center;
 		background-size: 100% 100%;
 		margin-left: 50%;
     	transform: translateX(-50%);
@@ -18694,7 +18778,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 	#btn2
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+		background: url('../images/body/apple.png') center;
 		background-size: 100% 100%;
 		margin-left: 50%;
     	transform: translateX(-50%);
@@ -18704,7 +18788,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 	#btn_auxiliar
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/premios/btn_register.png') center;
+		background: url('../images/body/premios/btn_register.png') center;
 		background-size: 100% 100%;
 		margin-left: 50%;
     	transform: translateX(-50%);
@@ -18722,7 +18806,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn3
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+	background: url('../images/body/badge_googleplay.png') center;
 	background-size: 120% 160%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18731,7 +18815,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn3_ESP
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+	background: url('../images/body/android_ESP.png') center;
 	background-size: 105% 140%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18740,7 +18824,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn3_PT
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+	background: url('../images/body/android_PT.png') center;
 	background-size: 105% 140%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18749,7 +18833,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn4
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_apple.svg') center;
+	background: url('../images/body/badge_apple.svg') center;
 	background-size: 102% 120%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18758,7 +18842,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn4_ESP
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+	background: url('../images/body/apple_ESP.svg') center;
 	background-size: 102% 120%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18767,7 +18851,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #btn4_PT
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_PT.svg') center;
+	background: url('../images/body/apple_PT.svg') center;
 	background-size: 102% 120%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -18791,6 +18875,54 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	bottom: 0px;
 }
 
+#div_btns__bg__pr
+{
+	position: absolute;
+	bottom: 0px;
+}
+
+@media(min-width: 1024px) and (max-height: 600px)
+{
+	#div_btns
+	{
+		position: absolute;
+		bottom: 0px;
+		/* top: 150px; */
+		top: 305px !important;
+		left: 0;
+	}
+
+	#div_btns__bg__pr
+	{
+		position: absolute;
+		bottom: 0px;
+		/* top: 150px; */
+		top: 305px !important;
+		left: 0;
+	}
+}
+
+@media(min-width: 1280px) and (max-height: 800px)
+{
+	#div_btns
+	{
+		position: absolute;
+		bottom: 0px;
+		/* top: 150px; */
+		top: 465px !important;
+		left: 0;
+	}
+
+	#div_btns__bg__pr
+	{
+		position: absolute;
+		bottom: 0px;
+		/* top: 150px; */
+		top: 465px !important;
+		left: 0;
+	}
+}
+
 @media (max-width: 767px){
 	#div_btns
 	{
@@ -18800,7 +18932,47 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 		/* top: 330px; */
 		left: 0;
 	}
+
 }
+
+
+
+@media (max-width:400px){
+
+	#div_btns__bg__pr
+	{
+		position: absolute;
+		bottom: 0px;
+		top: 141px !important; 
+		/* top: 330px; */
+		left: 0;
+	}
+}
+
+@media (max-width: 490px) and (min-width:401px){
+
+	#div_btns__bg__pr
+	{
+		position: absolute;
+		bottom: 0px;
+		top: 107px !important; 
+		/* top: 330px; */
+		left: 0;
+	}
+}
+
+@media (min-width: 491px) and (max-width:767px){
+
+	#div_btns__bg__pr
+	{
+		position: absolute;
+		bottom: 0px;
+		top: 143px !important; 
+		/* top: 330px; */
+		left: 0;
+	}
+}
+
 
 #div_btns2
 {
@@ -18955,7 +19127,8 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
-.dv_op_news{
+.dv_op_news
+{
 	position: relative;
 	padding: 15px;
 	border-radius: 10px;
@@ -19072,7 +19245,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #sec3
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.jpg') center center fixed;
+	background: url('../images/body/fondos/10.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 0px;
 	padding-bottom: 35px;
@@ -19118,7 +19291,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 #sec2
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.jpg') center center fixed;
+	background: url('../images/body/fondos/10.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 0px;
 	padding-bottom: 20px;
@@ -19127,7 +19300,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 @media (min-width: 992px) {
 	#sec2
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.jpg') center center fixed;
+		background: url('../images/body/fondos/10.jpg') center center fixed;
 		background-size: cover;
 		padding-top: 0px;
 		padding-bottom: 35px;
@@ -19162,7 +19335,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 	/* position: relative; */
 	/* background: rgba(0, 0, 0, .5); */
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/bgs/volcanicregion_a.png');
+	background: url('../images/bgs/volcanicregion_a.png');
 	/* background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; */
@@ -19362,6 +19535,11 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	transform: scale(1.75) translateZ(50px);
 } */
 
+#hr_tt6__Esp
+{
+	margin-top: 20px !important;
+}
+
 .h4_mobile
 {
 	padding-bottom: 10px;
@@ -19371,6 +19549,17 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	-webkit-text-fill-color: transparent;
 	font-family: Blockhead;
 	font-size: 40px;
+}
+
+.h4_mobile_info__esp
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: -webkit-linear-gradient(#e94014, #ffe300);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Blockhead;
+	font-size: 33px;
 }
 
 .h4_description
@@ -19387,6 +19576,37 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	font-family: Blockhead;
 	font-size: 18px;
 }
+
+.h4_description__new
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background: -webkit-linear-gradient(#fcec11, #ffe300);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: left;
+	padding-left: 5px;
+	/* font-size: 22px; */
+
+	font-family: Blockhead;
+	font-size: 18px;
+}
+
+.h4_description__newt
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background: -webkit-linear-gradient(#e96914, #ff7b00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: left;
+	padding-left: 5px;
+	/* font-size: 22px; */
+
+	font-family: Blockhead;
+	font-size: 18px;
+}
+
 
 .lbl_menu
 {
@@ -19504,7 +19724,9 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 }
 
-.mobiles_dv_video{
+.mobiles_dv_video
+{
+
 	/* background: rgba(0, 0, 0, .5);
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
 	text-align: center;
@@ -19517,21 +19739,28 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 }
 
-.dv_chl_comunity {
+.dv_chl_comunity
+{
+
 	border-radius: 10px;
 	text-align: center;
+
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 10px;
 	margin-bottom: 5px !important;
 	float: left;
+
 }
 
 @media (min-width: 992px) {
-	.dv_chl_comunity {
+	.dv_chl_comunity
+	{
+
 		border-radius: 10px;
 		text-align: center;
+
 		padding-top: 0px;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -19551,7 +19780,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	/* background: rgba(255, 255, 255, .5);
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
 	border-radius: 15px;
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/turned.jpg');
+	background: url('../images/body/turned.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -19566,7 +19795,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	#dv_contenidosocial
 	{
 		border-radius: 15px;
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/turned.jpg');
+		background: url('../images/body/turned.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -19619,6 +19848,13 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	font-size: 24px;
 }
 
+.p_white_news__esp
+{
+	color: #fff;
+	font-family: Candara;
+	font-size: 19px;
+}
+
 @media(min-width:1646px) and (max-width:1721px)
 {
 	.p_white_news
@@ -19632,6 +19868,11 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	.p_white_news
 	{
 		font-size: 18px;
+	}
+
+	#lbl_notices__es
+	{
+		font-size: 15px !important;
 	}
 }
 
@@ -19776,7 +20017,8 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	display: flex !important;
 }
 
-.dv_op_news2 {
+.dv_op_news2
+{
 	position: relative;
 	padding: 15px;
 	border-radius: 10px;
@@ -19891,7 +20133,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 }
 
 .slick-loading .slick-list {
-	background: #fff url("https://img.softnyx.com/resources/gunboundt/esp/teaser/ajax-loader.gif") center center no-repeat;
+	background: #fff url("./../images/ajax-loader.gif") center center no-repeat;
 }
 
 /* Icons */
@@ -20434,7 +20676,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #sec4
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.jpg') center center fixed;
+	background: url('../images/body/fondos/10.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 0px;
 	padding-bottom: 35px;
@@ -20507,7 +20749,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	/* border-radius: 15px; */
 	/* background: rgba(0, 0, 0, .5); */
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/bgs/text.png') center;
+	background: url('../images/bgs/text.png') center;
 	background-size: 100% 85%;
 }
 
@@ -20714,7 +20956,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 /*SECCION 5*/
 #sec5
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.jpg') center center fixed;
+	background: url('../images/body/fondos/10.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 0px;
@@ -20881,14 +21123,14 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #sec_pr1
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/bg_moondisk2.jpg') center center fixed;
+	background: url('../images/body/bg_moondisk2.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 25px;
 }
 
 #sec_pr2
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/bg_moondisk2.jpg') center center fixed;
+	background: url('../images/body/bg_moondisk2.jpg') center center fixed;
 	background-size: cover;
 	padding-top: 25px;
 }
@@ -20918,7 +21160,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 /* @media (min-width: 992px) {
 	#sec_pr1
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/10.png') center center fixed;
+		background: url('../images/body/fondos/10.png') center center fixed;
 		background-size: cover;
 		padding-top: 35px;
 		padding-bottom: 35px;
@@ -21423,6 +21665,21 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	margin-bottom: 105px;
 }
 
+#div_btns_pr__hd
+{
+	z-index: 1;
+	text-align: center;
+	margin-bottom: 105px;
+}
+
+#div_btns_pr__hdpt
+{
+	z-index: 1;
+	text-align: center;
+	margin-bottom: 105px;
+}
+
+
 #div_btns_pr_esp
 {
 	z-index: 1;
@@ -21430,9 +21687,27 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	margin-bottom: 130px;
 }
 
+#btn5__hd
+{
+	background: url('../images/body/badge_googleplay.png') center;
+	background-size: 120% 150%;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
+#btn5__hd__ESP
+{
+	background: url('../images/body/android_ESP.png') center;
+	background-size: 120% 150%;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
 #btn5
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+	background: url('../images/body/badge_googleplay.png') center;
 	background-size: 120% 150%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -21441,7 +21716,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #btn5_ESP
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+	background: url('../images/body/android_ESP.png') center;
 	background-size: 100% 130%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
@@ -21450,16 +21725,24 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #btn5_PT
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+	background: url('../images/body/android_PT.png') center;
 	background-size: 100% 130%;
 	background-repeat: no-repeat;
 	border-radius: 12px;
 	min-width: 180px;
 }
 
+#btn6__hd
+{
+	background: url('../images/body/badge_apple.svg') center;
+	background-size: cover;
+	border-radius: 12px;
+	min-width: 180px;
+}
+
 #btn6
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_apple.svg') center;
+	background: url('../images/body/badge_apple.svg') center;
 	background-size: cover;
 	border-radius: 12px;
 	min-width: 180px;
@@ -21467,7 +21750,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #btn6_ESP
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+	background: url('../images/body/apple_ESP.svg') center;
 	background-size: cover;
 	border-radius: 12px;
 	min-width: 180px;
@@ -21475,7 +21758,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #btn6_PT
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_PT.svg') center;
+	background: url('../images/body/apple_PT.svg') center;
 	background-size: cover;
 	border-radius: 12px;
 	min-width: 180px;
@@ -21486,7 +21769,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+		background: url('../images/body/badge_googleplay.png') center;
 		background-size: 110% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21494,7 +21777,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+		background: url('../images/body/android_ESP.png') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21502,7 +21785,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+		background: url('../images/body/android_PT.png') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21510,7 +21793,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+		background: url('../images/body/apple.png') center;
 		background-size: 100% 100%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21518,7 +21801,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+		background: url('../images/body/apple_ESP.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21526,7 +21809,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_PT.svg') center;
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21550,7 +21833,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+		background: url('../images/body/badge_googleplay.png') center;
 		background-size: 120% 150%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21558,7 +21841,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+		background: url('../images/body/android_ESP.png') center;
 		background-size: 100% 135%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21566,7 +21849,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+		background: url('../images/body/android_PT.png') center;
 		background-size: 100% 135%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21582,7 +21865,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+		background: url('../images/body/apple.png') center;
 		background-size: 100% 100%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21590,7 +21873,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+		background: url('../images/body/apple_ESP.svg') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21598,7 +21881,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 150px;
@@ -21646,7 +21929,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+		background: url('../images/body/badge_googleplay.png') center;
 		background-size: 110% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21654,7 +21937,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+		background: url('../images/body/android_ESP.png') center;
 		background-size: 105% 140%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21662,7 +21945,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn3_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+		background: url('../images/body/android_PT.png') center;
 		background-size: 105% 140%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21670,7 +21953,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+		background: url('../images/body/apple.png') center;
 		background-size: 100% 100%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21678,7 +21961,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+		background: url('../images/body/apple_ESP.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21686,7 +21969,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn4_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_PT.svg') center;
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 105% 150%;
 		border-radius: 10px;
 		min-width: 180px;
@@ -21702,7 +21985,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/badge_googleplay.png') center;
+		background: url('../images/body/badge_googleplay.png') center;
 		background-size: 120% 150%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21710,7 +21993,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_ESP.png') center;
+		background: url('../images/body/android_ESP.png') center;
 		background-size: 105% 135%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21718,7 +22001,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn5_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/android_PT.png') center;
+		background: url('../images/body/android_PT.png') center;
 		background-size: 105% 135%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21726,7 +22009,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple.png') center;
+		background: url('../images/body/apple.png') center;
 		background-size: 100% 100%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21734,7 +22017,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6_ESP
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_ESP.svg') center;
+		background: url('../images/body/apple_ESP.svg') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -21742,7 +22025,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 	#btn6_PT
 	{
-		background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/apple_PT.svg') center;
+		background: url('../images/body/apple_PT.svg') center;
 		background-size: 110% 120%;
 		border-radius: 12px;
 		min-width: 140px;
@@ -22003,7 +22286,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv1
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/4_2.jpg') center center fixed;
+	background: url('../images/body/fondos/4_2.jpg') center center fixed;
 	background-size: cover;
 	border-style: solid;
 	border-color: #0070ac;
@@ -22012,7 +22295,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv2
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/9.jpg') center center fixed;
+	background: url('../images/body/fondos/9.jpg') center center fixed;
 	background-size: cover;
 	border-style: solid;
 	border-color: #8428ad;
@@ -22021,7 +22304,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv3
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/6_2.jpg') center center fixed;
+	background: url('../images/body/fondos/6_2.jpg') center center fixed;
 	background-size: cover;
 	border-style: solid;
 	border-color: #8428ad;
@@ -22030,7 +22313,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv4
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/8_3.jpg') center center fixed;
+	background: url('../images/body/fondos/8_3.jpg') center center fixed;
 	background-size: cover;
 	border-style: solid;
 	border-color: #ffa900;
@@ -22039,7 +22322,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 
 #pr_dv5
 {
-	background: url('https://img.softnyx.com/resources/gunboundt/esp/teaser/body/fondos/5.jpg') center center fixed;
+	background: url('../images/body/fondos/5.jpg') center center fixed;
 	background-size: cover;
 	border-style: solid;
 	border-color: #ffa900;
@@ -24649,310 +24932,6 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 }
 
 /*nuevos cambios 14/12/2022*/
-
-#btn6__hd
-{
-	background: url('../images/body/badge_apple.svg') center;
-	background-size: cover;
-	border-radius: 12px;
-	min-width: 180px;
-}
-
-#div_btns_pr__hd
-{
-	z-index: 1;
-	text-align: center;
-	margin-bottom: 105px;
-}
-
-#div_btns_pr__hdpt
-{
-	z-index: 1;
-	text-align: center;
-	margin-bottom: 105px;
-}
-
-
-
-#btn5__hd
-{
-	background: url('../images/body/badge_googleplay.png') center;
-	background-size: 120% 150%;
-	background-repeat: no-repeat;
-	border-radius: 12px;
-	min-width: 180px;
-}
-
-#btn5__hd__ESP
-{
-	background: url('../images/body/android_ESP.png') center;
-	background-size: 120% 150%;
-	background-repeat: no-repeat;
-	border-radius: 12px;
-	min-width: 180px;
-}
-
-@media(min-width:1386px) and (max-width:1645px)
-{
-	#lbl_notices__es
-	{
-		font-size: 15px !important;
-	}
-}
-
-.p_white_news__esp
-{
-	color: #fff;
-	font-family: Candara;
-	font-size: 19px;
-}
-
-#hr_tt6__Esp
-{
-	margin-top: 20px !important;
-}
-
-.h4_mobile_info__esp
-{
-	padding-bottom: 10px;
-	padding-top: 10px;
-	background: -webkit-linear-gradient(#e94014, #ffe300);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-family: Blockhead;
-	font-size: 33px;
-}
-
-
-.h4_description__new
-{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	background: -webkit-linear-gradient(#fcec11, #ffe300);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-align: left;
-	padding-left: 5px;
-	/* font-size: 22px; */
-
-	font-family: Blockhead;
-	font-size: 18px;
-}
-
-.h4_description__newt
-{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	background: -webkit-linear-gradient(#e96914, #ff7b00);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-align: left;
-	padding-left: 5px;
-	/* font-size: 22px; */
-
-	font-family: Blockhead;
-	font-size: 18px;
-}
-
-@media(min-width: 1024px) and (max-height: 600px)
-{
-	#div_btns
-	{
-		position: absolute;
-		bottom: 0px;
-		/* top: 150px; */
-		top: 305px !important;
-		left: 0;
-	}
-
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		/* top: 150px; */
-		top: 305px !important;
-		left: 0;
-	}
-}
-
-@media(min-width: 1280px) and (max-height: 800px)
-{
-	#div_btns
-	{
-		position: absolute;
-		bottom: 0px;
-		/* top: 150px; */
-		top: 465px !important;
-		left: 0;
-	}
-
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		/* top: 150px; */
-		top: 465px !important;
-		left: 0;
-	}
-}
-
-#div_btns__bg__pr
-{
-	position: absolute;
-	bottom: 0px;
-}
-
-@media(min-width: 1024px) and (max-height: 600px)
-{
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		/* top: 150px; */
-		top: 305px !important;
-		left: 0;
-	}
-}
-
-@media (max-width:400px){
-
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		top: 141px !important; 
-		/* top: 330px; */
-		left: 0;
-	}
-}
-
-@media (max-width: 490px) and (min-width:401px){
-
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		top: 107px !important; 
-		/* top: 330px; */
-		left: 0;
-	}
-}
-
-@media (min-width: 491px) and (max-width:767px){
-
-	#div_btns__bg__pr
-	{
-		position: absolute;
-		bottom: 0px;
-		top: 143px !important; 
-		/* top: 330px; */
-		left: 0;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-	#div_btns__bg__pr
-	{
-		/* top: 155px !important; */
-		top: 340px !important;
-	}
-}
-
-@media (min-width: 992px) and (max-width: 1599px){
-	#div_btns__bg__pr
-	{
-		/* top: 235px !important; */
-		top: 615px !important;
-		/* top: 455px !important; */
-	}
-}
-
-@media (min-width: 1800px) {
-	#div_btns__bg__pr
-	{
-		/* top: 325px !important; */
-		top: 610px !important;
-	}
-}
-
-@media (min-width: 1600px) and (max-width: 1799px) {
-	#div_btns__bg__pr
-	{
-		/* top: 275px !important; */
-		top: 610px !important;
-	}
-}
-
-@media (min-width:1225px) and (max-width:1364px)
-{
-	.h4_description__new
-	{
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-
-	.h4_description__newt
-	{
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-}
-
-@media (min-width:576px) and (max-width:1224px)
-{
-	.h4_description__new
-	{
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-
-	.h4_description__newt
-	{
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-}
-
-@media (min-width:1325px) and (max-width:1385px)
-{
-	.h4_mobile_info__esp {
-		font-size: 28px !important;
-	}
-}
-
-@media (min-width:1299px) and (max-width:1324px)
-{
-	.h4_mobile_info__esp {
-		font-size: 28px !important;
-	}
-}
-
-@media (min-width:576px) and (max-width:1298px)
-{
-	.h4_mobile_info__esp {
-		font-size: 26px !important;
-	}
-}
-
-@media (min-width: 768px) {
-	.swiper-main-section {
-		padding-top: 250px;
-		padding-bottom: 100px;
-	}
-}
-
-@media (min-width: 992px) {
-	.desktop .swiper-main-section {
-		padding-top: 250px;
-		padding-bottom: 130px;
-	}
-}
-
-@media (max-width: 490px){
-	#ct2__pt{
-		padding-top: 10px !important;
-	}
-}
 
 .dv_cscom__new
 {
